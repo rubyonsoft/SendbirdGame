@@ -29,6 +29,7 @@ SignalR은 모든 코딩을 직접해야 하고 대규모의 온라인 게임을
 채팅과 채팅 API를 사용한 또 다른 방법입니다. 웹에서 채팅을 하면서 학생들과 선생님이 그림을 그리면서 가르치는 장면을 만들어 보았습니다<br />
 그림을 그리는 화면을 공유하는 것도 채팅 소켓 데이터 전송으로 작업하는 것입니다.<br />
 2분쯤에는 디자인 회사가 원격으로 채팅과 화면을 보면서 업무를 이야기 하는 장면을 연출 했습니다. 물론 센드버드 Calls를 이용하면 화상회의도 가능합니다.<br />
+이 작업 모두 클라이언트 개발만 있으면 됩니다. 서버는 센드버드 채팅 서버만 있으면 됩니다.<br />
 https://www.youtube.com/watch?v=rJ4mJCprVuA
 <br />
 This sample is written in C# with [Sendbird Chat SDK](https://github.com/sendbird/SendBird-SDK-dotNET).
