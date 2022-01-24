@@ -41,6 +41,7 @@ https://www.youtube.com/watch?v=rJ4mJCprVuA
 <br />
 This sample is written in C# with [Sendbird Chat SDK](https://github.com/sendbird/SendBird-SDK-dotNET).
 
+이미지는 라이선스 프리이거나 직접 포토샵 작업으로 만들었습니다. 
 <br />
 
 ## Installation
