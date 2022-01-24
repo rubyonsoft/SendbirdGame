@@ -66,6 +66,7 @@ SendBirdUnity.cs 코드에서  SendBirdClient.Init("Your App ID") `APP_ID` 를 [
 
 Application ID  75822989-C2A3-5103-A416-2354AAC1DB01  이런 형식의 아이디 입니다.
 
+- 대시보드에 들어가서 오픈 채널 하나를 생성해주셔야 합니다. 오픈 채널이 각 각 서버 리스트처럼 
 ## 추가 팁
 
 free trial 계정을 만들 때 "Continue with Google"로 만들면 브라우저에서 구글 로그인이 되어 있으면 언제든지 접속이 가능합니다.<br />
