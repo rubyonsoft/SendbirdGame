@@ -64,6 +64,7 @@ Unity 샘플을 사용하려면 먼저 [Unity용 Chat SDK](https://github.com/se
 ### 게임 채팅 앱 생성
 
 [Start your free trial](https://dashboard.sendbird.com/auth/signup) 여기에서 무료로 가입하여 채팅 앱 아이디를 생성할 수 있습니다.<br />
+Developer Plan을 선택해서 무료로 계속 사용할 수 있습니다.<br />
 SendBirdUnity.cs 코드에서  SendBirdClient.Init("Your App ID") `APP_ID` 를 [Sendbird Dashboard](https://dashboard.sendbird.com) 에서 찾아 넣기만 하면 모든 준비는 완료됩니다.<br />
 
 Application ID  75822989-C2A3-5103-A416-2354AAC1DB01  이런 형식의 아이디 입니다.
@@ -73,5 +74,5 @@ Application ID  75822989-C2A3-5103-A416-2354AAC1DB01  이런 형식의 아이디
 
 free trial 계정을 만들 때 "Continue with Google"로 만들면 브라우저에서 구글 로그인이 되어 있으면 언제든지 접속이 가능합니다.<br />
 사용하시는 일반 이메일로 생성하시고 패스워드를 잃어 버린 경우 여러번 비밀번호를 잘못 입력하면 등록 이메일로 재설정 메일이 오게 됩니다.<br />
-한 달간 무료로 사용할 수 있으며 한 달 후 다시 테스트 하고 싶으면 Security > Delete account 에서 앱을 삭제하고 다시 만드시면 됩니다.
+최근 Developer Plan 무료 계정이 추가되어 테스트 규모로 계속 사용할 수 있는 계정이 추가되었습니다.
 
