@@ -41,6 +41,7 @@ https://www.youtube.com/watch?v=rJ4mJCprVuA
 <br />
 This sample is written in C# with [Sendbird Chat SDK](https://github.com/sendbird/SendBird-SDK-dotNET).
 
+이미지는 라이선스 프리이거나 직접 포토샵 작업으로 만들었습니다. 
 <br />
 
 ## Installation
@@ -53,21 +54,25 @@ Unity 샘플을 사용하려면 먼저 [Unity용 Chat SDK](https://github.com/se
 - 유니티 허브에서(최신 버전은 유니티 허브 프로그램에서 열도록 되어 있습니다) "추가"를 눌러 소스를 풀었던 폴더를 선택한다.
 - 유니티 버전에 맞는 추가 파일들이 자동 생성되면서 화면이 열리게 됩니다. Project 탭 화면에서 Assets를 클릭하고 유니티 파일인 Login을 선택하면 로그인 화면이 나오게 됩니다
 - 아래 앱생성을 참고해서 SendBirdUnity.cs 코드의 App ID만 넣어주고 실행하면 됩니다.
+- 대시보드에서 Open channels 메뉴로 가서 오픈 채널 하나 이상을 만드시면 유니티 화면에 서버 리스트로 나타납니다.
 - 두 개의 프로그램으로 게임을 테스트 하려면 PC 빌드 상태에서 빌드해서 Windows로 앱을 하나 띄우고 유니티 툴과 1:1 대전을 테스트 하거나 모바일 버전으로 빌드 세팅을 변경해서 모바일로 빌드하여 테스트 할수 있습니다. 여러대의 모바일, Windows 빌드 클라이언트 여러개로 테스트 해 보세요.<br />
 
 ### Requirements
-2020.3.25f1, 2019.3.12f1 으로 테스트 되었으며  `Unity 2017.4.0f1` 이상의 모든 버전에서 작동될 것입니다.
+2020.3.25f1, 2019.3.12f1 으로 테스트 되었으며  `Unity 2017.4.0f1` 이상의 모든 버전에서 작동될 것입니다.<br />
+버전 업그레이드나 다운그레이드 화면이 나오면 OK를 선택하세요. 다운그레이드 업그레이드 모두 잘 작동됩니다.
 
 ### 게임 채팅 앱 생성
 
 [Start your free trial](https://dashboard.sendbird.com/auth/signup) 여기에서 무료로 가입하여 채팅 앱 아이디를 생성할 수 있습니다.<br />
+Developer Plan을 선택해서 무료로 계속 사용할 수 있습니다.<br />
 SendBirdUnity.cs 코드에서  SendBirdClient.Init("Your App ID") `APP_ID` 를 [Sendbird Dashboard](https://dashboard.sendbird.com) 에서 찾아 넣기만 하면 모든 준비는 완료됩니다.<br />
 
 Application ID  75822989-C2A3-5103-A416-2354AAC1DB01  이런 형식의 아이디 입니다.
 
+- 대시보드에 들어가서 오픈 채널 하나를 생성해주셔야 합니다. 오픈 채널이 각 각 서버 리스트처럼 보여집니다.<br />
 ## 추가 팁
 
 free trial 계정을 만들 때 "Continue with Google"로 만들면 브라우저에서 구글 로그인이 되어 있으면 언제든지 접속이 가능합니다.<br />
 사용하시는 일반 이메일로 생성하시고 패스워드를 잃어 버린 경우 여러번 비밀번호를 잘못 입력하면 등록 이메일로 재설정 메일이 오게 됩니다.<br />
-한 달간 무료로 사용할 수 있으며 한 달 후 다시 테스트 하고 싶으면 Security > Delete account 에서 앱을 삭제하고 다시 만드시면 됩니다.
+최근 Developer Plan 무료 계정이 추가되어 테스트 규모로 계속 사용할 수 있는 계정이 추가되었습니다.
 
