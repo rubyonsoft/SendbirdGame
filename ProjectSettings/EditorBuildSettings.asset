@@ -6,12 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Login.unity
+    path: Assets/SendbirdGame/Login.unity
     guid: d51195619a02cd34eba090dc7a059901
   - enabled: 1
-    path: Assets/Lobby.unity
+    path: Assets/SendbirdGame/Lobby.unity
     guid: c3a660fec269e174f9033c5db948a89b
   - enabled: 1
-    path: Assets/MainScene.unity
+    path: Assets/SendbirdGame/MainScene.unity
     guid: b32d93dfc7ba6b6438805cebb4a6c95a
   m_configObjects: {}

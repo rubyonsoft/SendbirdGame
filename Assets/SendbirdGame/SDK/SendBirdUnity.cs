@@ -8,7 +8,7 @@ public class SendBirdUnity : MonoBehaviour
 		SendBirdClient.SetupUnityDispatcher (gameObject);
 		StartCoroutine (SendBirdClient.StartUnityDispatcher);
 
-        SendBirdClient.Init("Your App ID"); // App ID
+        SendBirdClient.Init("45832989-C4A3-4103-A316-9354AAC1DB0B"); // App ID
         SendBirdClient.LoggerLevel = 100000;
         SendBirdClient.Log += (message) =>
         {

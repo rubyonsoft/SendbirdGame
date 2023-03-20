@@ -5318,7 +5318,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 34b84a115f2c5c64587b2bfe7dafc414, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5ed71730dbc9ae34e88588f40d812aeb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5435,11 +5435,9 @@ MonoBehaviour:
   messageRightPrefab: {fileID: 7081011421000559579, guid: f18cf2b93c8bc664f8d9581e871193b4, type: 3}
   gameListPrefab: {fileID: 7254748466058680384, guid: e93e8380b405c2c41b82ab90db34f523, type: 3}
   openChannelGridPannel: {fileID: 2902125131616764005}
-  userListItemPrefab: {fileID: 0}
   groupChannelListConetnt: {fileID: 179597507299755499}
   openChannelScrollbar: {fileID: 1492753334}
   txtPopupMessage: {fileID: 0}
-  btnConfirm: {fileID: 0}
   btnBack: {fileID: 906364787}
   btnOk: {fileID: 0}
   btnCreateRoom: {fileID: 795370978}
